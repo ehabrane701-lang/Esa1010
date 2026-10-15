@@ -1,0 +1,15 @@
+{
+  "name": "telegram-rat-bot",
+  "version": "1.0.0",
+  "description": "Telegram Remote Access Tool Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "socket.io": "^4.7.5"
+  }
+}
